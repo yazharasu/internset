@@ -1,0 +1,21 @@
+.task{
+    position: relative;
+}
+.task-icon::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.125);
+    width: 1px;
+    height: 18px;
+    bottom: -9px;
+    left: 20px;
+}
+.task::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.125);
+    width: 862px;
+    height: 1px;
+    bottom: -3px;
+    left: 65px;
+}
